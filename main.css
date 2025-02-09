@@ -1,0 +1,62 @@
+body {
+    background: #202020;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #3b3b3b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+.status {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background-color: #3b3b3b;
+}
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff330085;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #0057b393;
+}
+.button:disabled {
+    background-color: #3f3f3f;
+    cursor: not-allowed;
+}
+.etapa {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333333;
+}
+.etapa.activo {
+    background-color: #23a341;
+    border-color: #c3e6cb;
+}
